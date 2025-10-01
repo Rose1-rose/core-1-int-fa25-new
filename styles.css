@@ -43,3 +43,13 @@
       color: var(--color-secondary);
       margin-bottom: 1rem;
     }
+    img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+<link rel="stylesheet" href="styles.css">
+img {
+    max-width: 100%;
+    height: auto;
+  }
