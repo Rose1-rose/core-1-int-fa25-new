@@ -77,11 +77,14 @@ main {
   padding: 2rem;
   margin: 0 auto;
   max-width: 60vw;
-  background-color: chartreuse;
+  body {
+  background-color: #1c1f26; 
+  color: #e6e6e6;          
+}
+
 }
 
 section {
-  background-color: white;
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -244,3 +247,36 @@ main.photo-grid .photo-caption {
     font-size: 1rem;
   }
 }
+body {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.entry h2 {
+  background-color: #1a1a1a;
+  color: #5dade2;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.entry p {
+  color: #d0d0d0;
+  margin-bottom: 1.2rem;
+}
+
+img {
+  border: 2px solid #5dade2;
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+a {
+  color: #5dade2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #82cfff;
