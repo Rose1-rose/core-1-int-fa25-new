@@ -33,63 +33,70 @@
 FIELD RECORDINGS · FALL 2025 · NEW YORK CITY
       </p>
 
-    <main class="home-list" id="entries">
-      
-      <ul class="entry-list">
-        <li><a href="entries/entry-1.html">Subway Roar — Union Square</a></li>
-        <li><a href="entries/entry-2.html">Café Conversations — West Village</a></li>
-        <li><a href="entries/entry-3.html">Riverside Breeze — Williamsburg</a></li>
-        <li><a href="entries/entry-4.html">Morning Market — Chinatown</a></li>
-         <li><a href="entries/entry-5.html">CHERRY BLOSSOMS — CENTRAL PARK</a></li>
-        <li><a href="entries/entry-layout.html">Test Layout</a></li>
-      </ul>
-      
-
-        <div class="photo-card">
-          <div class="photo-frame">
-            <img src="images/river.JPG" alt="Listening by the river at sunset" />
-          </div>
-          <div class="photo-caption">
-            <div class="label">WILLIAMSBURG WATER / SUNSET</div>
-            <div class="note">low bridge hum • wind in headphones</div>
-          </div>
-        </div>
-
-        <div class="photo-card">
-          <div class="photo-frame">
-            <img src="images/ship.jpg" alt="Harbor rigging at night" />
-          </div>
-          <div class="photo-caption">
-            <div class="label">PIER / SOUTH STREET SEAPORT</div>
-            <div class="note">metal lines vibrating in the dark</div>
-          </div>
-        </div>
-
-        <div class="photo-card">
-          <div class="photo-frame">
-            <img src="images/building.JPG" alt="Yellow cabs and afternoon light" />
-          </div>
-          <div class="photo-caption">
-            <div class="label">MIDTOWN / 5PM</div>
-            <div class="note">horns, brakes, heat in the air</div>
-          </div>
-        </div>
-
-        <div class="photo-card">
-          <div class="photo-frame">
-            <img src="images/street.JPG" alt="Café window conversation" />
-          </div>
-          <div class="photo-caption">
-            <div class="label">WEST VILLAGE / WINDOW TALK</div>
-            <div class="note">glass clink • soft voices • street idle</div>
-          </div>
-        </div>
-      </section>
-
-      <p class="foot-meta">
-        FIELD RECORDINGS · FALL 2025 · NEW YORK CITY
+      <p class="hero-sub">
+I listen where the city breathes — in its trains, its tides, its neon heat, its quiet windows.
       </p>
-    </main>
-  </section>
-</body>
+
+    <main class="home-list" id="entries">
+  
+  <!-- 还是先放你的 entry list -->
+  <ul class="entry-list">
+    <li><a href="entries/entry-1.html">SUBWAY ROAR — UNION SQUARE</a></li>
+    <li><a href="entries/entry-2.html">CAFÉ CONVERSATIONS — WEST VILLAGE</a></li>
+    <li><a href="entries/entry-3.html">RIVERSIDE BREEZE — WILLIAMSBURG</a></li>
+    <li><a href="entries/entry-4.html">MORNING MARKET — CHINATOWN</a></li>
+    <li><a href="entries/entry-5.html">CHERRY BLOSSOMS — CENTRAL PARK</a></li>
+    <li><a href="entries/entry-layout.html">TEST LAYOUT</a></li>
+  </ul>
+
+  <!-- 👇 关键新增：把四张照片都包在一个 div.photo-row 里面 👇 -->
+  <div class="photo-row">
+
+    <div class="photo-card">
+      <div class="photo-frame">
+        <img src="images/river.JPG" alt="Listening by the river at sunset" />
+      </div>
+      <div class="photo-caption">
+        <div class="label">WILLIAMSBURG WATER / SUNSET</div>
+        <div class="note">low bridge hum • wind in headphones</div>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <div class="photo-frame">
+        <img src="images/ship.jpg" alt="Harbor rigging at night" />
+      </div>
+      <div class="photo-caption">
+        <div class="label">PIER / SOUTH STREET SEAPORT</div>
+        <div class="note">metal lines vibrating in the dark</div>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <div class="photo-frame">
+        <img src="images/building.JPG" alt="Yellow cabs and afternoon light" />
+      </div>
+      <div class="photo-caption">
+        <div class="label">MIDTOWN / 5PM</div>
+        <div class="note">horns, brakes, heat in the air</div>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <div class="photo-frame">
+        <img src="images/street.JPG" alt="Café window conversation" />
+      </div>
+      <div class="photo-caption">
+        <div class="label">WEST VILLAGE / WINDOW TALK</div>
+        <div class="note">glass clink • soft voices • street idle</div>
+      </div>
+    </div>
+
+  </div><!-- /photo-row -->
+
+  <p class="foot-meta">
+    FIELD RECORDINGS · FALL 2025 · NEW YORK CITY
+  </p>
+
+</main>
 </html>
